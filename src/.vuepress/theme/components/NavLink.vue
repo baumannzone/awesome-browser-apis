@@ -85,3 +85,8 @@ export default {
   }
 }
 </script>
+
+<style lang="stylus">
+  .nav-link
+    padding 0
+</style>
