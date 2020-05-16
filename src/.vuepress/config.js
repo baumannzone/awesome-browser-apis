@@ -5,29 +5,28 @@ const description = '🦄 Cool && Fun Browser APIs you did not know!'
 
 module.exports = {
   title: 'Awesome Browser APIs',
-  description: 'Cool && Fun Browser API\'s',
+  description: 'Cool && Fun Browser APIs',
   markdown: {
-    lineNumbers: false
+    lineNumbers: true
   },
   themeConfig: {
     logo: '/img/logo.png',
     nav: [
       {text: 'Home', link: '/'},
-      {text: 'Contact', link: '/contact/'},
       {text: 'About', link: '/about/'},
-      {
-        text: 'Languages',
-        ariaLabel: 'Language Menu',
-        items: [
-          {text: 'Chinese', link: '/language/chinese/'},
-          {text: 'Japanese', link: '/language/japanese/'}
-        ]
-      }
+      // {
+      //   text: 'Languages',
+      //   ariaLabel: 'Language Menu',
+      //   items: [
+      //     {text: 'Chinese', link: '/language/chinese/'},
+      //     {text: 'Japanese', link: '/language/japanese/'}
+      //   ]
+      // }
     ],
-    sidebar: [
-      ['/catering/boards_tables_platters/', 'BOARDS/TABLES/PLATTERS'],
-      ['/catering/appetizers/', 'APPETIZERS'],
-    ],
+    // sidebar: [
+    //   ['/api/audio/', 'AUDIO']
+    //   ['/catering/appetizers/', 'APPETIZERS'],
+    // ],
     nextLinks: true,
     prevLinks: true,
     smoothScroll: true,
@@ -131,6 +130,15 @@ module.exports = {
       prefix: ogprefix,
       property: 'og:image',
       content: 'https://awesome-browser-apis.netlify.app/img/logo.png'
-    }]
+    }],
+    [
+      'link', {
+      rel: 'stylesheet',
+      href: 'https://use.fontawesome.com/releases/v5.8.1/css/all.css',
+      integrity: 'sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf',
+      crossorigin: 'anonymous'
+    }
+    ]
+
   ],
 }
