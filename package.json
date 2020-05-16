@@ -12,12 +12,14 @@
     "url": "git+https://github.com/baumannzone/awesome-browser-apis.git"
   },
   "author": "Baumannzone",
-  "license": "GPL-3.0-or-later",
+  "license": "GPL-3.0+",
   "bugs": {
     "url": ""
   },
   "homepage": "",
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.19",
     "vuepress": "^1.2.0",
     "vuepress-plugin-sitemap": "^2.3.1"
   },
