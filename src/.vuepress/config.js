@@ -1,7 +1,7 @@
 const ogprefix = 'og: http://ogp.me/ns#'
 const title = 'Awesome Browser APIs'
 const description = '🦄 Cool && Fun Browser APIs you did not know!'
-// const color = '#f42525'
+const color = '#46bd87'
 
 module.exports = {
   title: 'Awesome Browser APIs',
@@ -13,6 +13,7 @@ module.exports = {
     logo: '/img/logo.png',
     nav: [
       {text: 'Home', link: '/'},
+      {text: 'APIs', link: '/apis/'},
       {text: 'About', link: '/about/'},
     ],
     nextLinks: true,
@@ -97,7 +98,7 @@ module.exports = {
   ],
   head: [
     ['link', {rel: 'icon', href: '/img/favicon.png'}],
-    // ['meta', {name: 'theme-color', content: color}],
+    ['meta', {name: 'theme-color', content: color}],
     ['meta', {prefix: ogprefix, property: 'og:locale', content: 'en_EN'}],
     ['meta', {prefix: ogprefix, property: 'og:title', content: title}],
     ['meta', {prefix: ogprefix, property: 'twitter:title', content: title}],
