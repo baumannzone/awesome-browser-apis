@@ -17,7 +17,7 @@ The Web Audio API provides a powerful system for controlling audio on the Web, a
 ## Examples
 
 ### Demo #1
-
+> Simple sound from scratch
 
 <API-Audio-Example1 />
   
@@ -28,13 +28,34 @@ const oscillator = ac.createOscillator()
 
 // Connect
 oscillator.connect(ac.destination)
-const time = ac.currentTime
 
 // Duration (1s)
+const time = ac.currentTime
 oscillator.start(time)
 oscillator.stop(time + 1)
 ```
 :::
 
 
-### Demo 2
+### Demo #2
+> Simple sound with options
+
+<API-Audio-Example2 />
+
+::: details Code
+```js {4}
+const ac = new AudioContext()
+const oscillator = ac.createOscillator()
+
+// Options
+oscillator.type = this.selected
+oscillator.frequency.value = this.freq
+
+// Connect
+oscillator.connect(ac.destination)
+
+const time = ac.currentTime
+oscillator.start(time)
+oscillator.stop(time + 1)
+```
+:::
