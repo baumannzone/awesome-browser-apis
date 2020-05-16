@@ -1,0 +1,31 @@
+{
+  "name": "awesome-browser-apis",
+  "version": "1.0.0",
+  "description": "🦄 Awesome browser APIs 💃",
+  "scripts": {
+    "serve": "vuepress dev src",
+    "build": "vuepress build src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baumannzone/awesome-browser-apis.git"
+  },
+  "author": "Baumannzone",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.4.0",
+    "@vuepress/plugin-google-analytics": "^1.4.0",
+    "@vuepress/plugin-nprogress": "^1.4.0",
+    "vuepress-plugin-robots": "^1.0.1",
+    "vuepress-plugin-seo": "^0.1.2"
+  }
+}
