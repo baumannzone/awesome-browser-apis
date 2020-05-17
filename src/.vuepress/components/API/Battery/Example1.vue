@@ -15,16 +15,6 @@
 <script>
   import BaseExample from "../../BaseExample"
 
-  function onChargingchange({currentTarget: battery}, bm) {
-    bm.charging = battery.charging
-    console.log(`Battery charging? ${battery.charging ? 'Yes' : 'No'}`)
-  }
-
-  function onLevelchange({currentTarget: battery}, bm) {
-    bm.level = battery.level * 100
-    console.log(`Battery Level ${battery.level} %`)
-  }
-
   export default {
     name: 'BatteryExample1',
     components: {
