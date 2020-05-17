@@ -106,7 +106,7 @@ source.start()
 ```
 :::
 
-### Demo #4
-> Plays audio with options 
+### Demo #4 (Extra Ball) 🔥
+> Plays audio with options: volume & panner
 
-[https://mdn.github.io/webaudio-examples/audio-basics/](https://mdn.github.io/webaudio-examples/audio-basics/)
+**Live Demo**: [https://codepen.io/baumann/pen/OJyBaPK](https://codepen.io/baumann/pen/OJyBaPK)
