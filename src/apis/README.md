@@ -1,5 +1,6 @@
 
 
-Listado de todas las APIs :ok_hand:
+API list:
 
-- [Audio](/apis/audio)
+- [Audio](/apis/audio/)
+- [Battery](/apis/battery/)
