@@ -5,6 +5,9 @@
     <div v-if="name">
       Device name: <b-badge> {{ name }} </b-badge>
     </div>
+    <div v-if="err">
+      Error: <pre class="text-light">{{ err }}</pre>
+    </div>
   </BaseExample>
 </template>
 
