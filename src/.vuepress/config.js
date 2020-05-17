@@ -109,6 +109,7 @@ module.exports = {
       property: 'og:image',
       content: 'https://awesome-browser-apis.netlify.app/img/logo.png'
     }],
+    ['meta', { name: 'google-site-verification', content: 'FYlh3KSnVMTRpk2jh5VLOXu21RlYeukzd0qoxD8S53I'}],
     [
       'link', {
         rel: 'stylesheet',
