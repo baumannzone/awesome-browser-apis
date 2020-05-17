@@ -22,7 +22,7 @@ This feature is no longer recommended. Though some browsers might still support 
 ## Examples
 
 ### Demo #1
-> Simple demo
+> Battery demo with listeners
 
 <API-Battery-Example1 />
 
@@ -30,8 +30,9 @@ This feature is no longer recommended. Though some browsers might still support 
 ```js
 navigator.getBattery()
   .then((battery) => {
-    console.log('Battery Manager:')
     console.log(battery)
+    // => Battery Manager Obj
+    // => level, charging, chargingTime, dischargingTime, etc
   })
 ```
 :::
