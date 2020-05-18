@@ -1,5 +1,11 @@
+---
 
-# Shape Detection API 🟪
+title: Face Detector
+sidebar: auto
+
+---
+
+# Shape Detection API ❇️
 > aka Face Detector API 😃
 
 ::: tip
