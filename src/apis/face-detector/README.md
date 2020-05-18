@@ -12,4 +12,19 @@ It is not a W3C Standard nor is it on the W3C Standards Track.
 ### Demo #1
 > Face detector demo
 
-<API-FaceDetector-Example1 />
+Required: `chrome://flags/#enable-experimental-web-platform-features`
+
+<ClientOnly>
+  <API-FaceDetector-Example1 />
+</ClientOnly>
+
+---
+
+  <API-FaceDetector-Example1 />
+
+
+::: details Code
+```js
+codigooo
+```
+:::
