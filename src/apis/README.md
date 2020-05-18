@@ -6,3 +6,4 @@ Awesome APIs:
 - [Battery](/apis/battery/)
 - [Bluetooth](/apis/bluetooth/)
 - [Face Detector](/apis/face-detector/)
+- [Geolocation](/apis/geolocation/)
