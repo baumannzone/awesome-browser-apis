@@ -1,6 +1,6 @@
 ---
 
-title: Face Detector
+title: Shape Detection API ❇️
 sidebar: auto
 
 ---
