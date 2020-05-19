@@ -14,6 +14,10 @@ For privacy reasons, the user is asked for permission to report location informa
 
 ## Examples
 
+::: warning
+🔒 This feature is available only in secure contexts (HTTPS)
+:::
+
 ### Demo #1
 > Geolocation basics
 
