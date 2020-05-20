@@ -1,11 +1,12 @@
 # 🦄 Awesome Browser APIs
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b338b324-bd00-478b-bfd7-e88306a7ad07/deploy-status)](https://app.netlify.com/sites/awesome-browser-apis/deploys)
 
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-[![License](https://img.shields.io/github/license/baumannzone/awesome-browser-apis?color=blue)](./LICENSE)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b338b324-bd00-478b-bfd7-e88306a7ad07/deploy-status)](https://app.netlify.com/sites/awesome-browser-apis/deploys)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+[![License](https://img.shields.io/github/license/baumannzone/awesome-browser-apis?color=blue)](./LICENSE)
 
 ## Requirements
 - `node.js` / `npm`
