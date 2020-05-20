@@ -1,6 +1,6 @@
 ---
 
-title: MediaStream Recording API 
+title: Intersection Observer API 👀 
 sidebar: auto
 
 ---
@@ -35,6 +35,6 @@ const callback = (entries) => {
 }
 
 const observer = new IntersectionObserver(callback, { root: rootElement })
-```
 observer.observe(targetElement)
+```
 :::
