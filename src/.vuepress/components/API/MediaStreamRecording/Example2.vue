@@ -15,7 +15,7 @@
 import BaseExample from "../../BaseExample"
 
 export default {
-  name: 'MediaRecordingExample1',
+  name: 'MediaRecordingExample2',
   components: {
     BaseExample
   },

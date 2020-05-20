@@ -20,7 +20,7 @@
   import BaseExample from "../../BaseExample"
 
   export default {
-    name: 'AudioExample1',
+    name: 'IntersectionObserverExample1',
     components: {
       BaseExample
     },

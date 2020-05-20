@@ -10,7 +10,7 @@
 import BaseExample from "../../BaseExample"
 
 export default {
-  name: 'ImageCaptureExample1',
+  name: 'MediaStreamImageCaptureExample1',
   components: {
     BaseExample
   },
