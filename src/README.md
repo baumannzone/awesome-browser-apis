@@ -4,20 +4,26 @@ sidebar: false
 
 ---
 
-# AWESOME BROWSER API's 🦄
+# 🦄 AWESOME BROWSER API's
 
-> Poner una IMG
+> `ABA` for friends
 
-## No sabía que podía hacer esto con el navegador
+## 😱 I didn't know I could do this with the browser
 
-Atrás quedaron los tiempos en los que los navegadores web servían para renderizar texto y poco más...  
-¡Son tiempos modernos!, incluso para los navegadores, que actualmente están llenos de _features_ interesantes para los developers, muchas de ellas desconocidas.
+Gone are those times when web browsers were used to render text and little else...
+These are modern times! Even for browsers, which are currently full of interesting _features_ for developers, many of them unknown.
 
-En esta charla, exploraremos algunas de las funcionalidades (APIs) más curiosas del navegador.
-Veremos algunas APIs (voz, grabación multimedia, bluetooth, vibración, etc) y explicaremos qué hacen, cómo las podemos usar y por qué son tan divertidas.
+In this talk, we will explore some of the most curious functionalities (_APIs_) of the browser.
+We will see some APIs (voice, multimedia recording, bluetooth, vibration, etc.) and we will explain what they do, how we can use them and why they are so fun.
 
-¡Seguro que no las conoces todas!
+Surely you don't know them all!
 
-## Misión 🚀
+## 🚀 Mision
+The goal with this talk is for you to say "_😱 omg, I didn't know I could do this with the browser_" every time I present a new _(and awesome)_ browser feature.
 
-> GIF Loco con la boca abierta
+::: details Reaction
+
+
+![reaction](/img/reaction.gif)
+# 😱👏 😱👏 😱👏 😱👏
+:::
