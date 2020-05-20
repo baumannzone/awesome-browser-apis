@@ -7,5 +7,6 @@ Awesome APIs:
 - [Bluetooth](/apis/bluetooth/)
 - [Face Detector](/apis/face-detector/)
 - [Geolocation](/apis/geolocation/)
+- [Intersection Observer](/apis/intersection-observer)
 - [Mediastream Image Capture](/apis/mediastream-image-capture)
 - [Mediastream Recording](/apis/mediastream-recording)
