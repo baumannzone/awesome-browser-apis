@@ -1,4 +1,7 @@
 # 🦄 Awesome Browser APIs
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b338b324-bd00-478b-bfd7-e88306a7ad07/deploy-status)](https://app.netlify.com/sites/awesome-browser-apis/deploys)
 
@@ -39,3 +42,22 @@ He writes technical posts (about CSS, javascript, testing, firebase, etc). In ad
 
 ## License
 This material is available for private, non-commercial use under the GPL version 3. If you would like to use this material to conduct your own workshop, please contact me at [@baumannzone](https://twitter.com/baumannzone)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://valya.codes"><img src="https://avatars0.githubusercontent.com/u/7880641?v=4" width="100px;" alt=""/><br /><sub><b>Valentin Berlin</b></sub></a><br /><a href="https://github.com/baumannzone/awesome-browser-apis/commits?author=valenber" title="Code">💻</a> <a href="#example-valenber" title="Examples">💡</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
