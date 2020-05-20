@@ -18,7 +18,9 @@ If the Web Share API is unsupported, then this method will be `undefined`.
 ### Demo #1
 > Report when the target element is fully visible inside the box
 
-<API-Share-Example1></API-Share-Example1>
+<ClientOnly>
+  <API-Share-Example1/>
+</ClientOnly>
 
 ::: details Code
 ```js
@@ -37,6 +39,6 @@ navigator.share(data)
     this.message = error
     console.log('Error sharing:', error)
   })
-```
 observer.observe(targetElement)
+```
 :::

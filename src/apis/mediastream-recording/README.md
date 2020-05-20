@@ -17,7 +17,9 @@ The MediaStream Recording API makes it possible to capture the data (audio & vid
 ### Demo #1
 > Audio record
 
-<API-MediaStreamRecording-Example1></API-MediaStreamRecording-Example1>
+<ClientOnly>
+  <API-MediaStreamRecording-Example1/>
+</ClientOnly>
 
 ::: details Code
 ```js
@@ -44,7 +46,7 @@ navigator.mediaDevices.getUserMedia({ audio: true })
 
 
 ### Demo #2
-> Video record
+> Video (and audio) record
 
 <API-MediaStreamRecording-Example2></API-MediaStreamRecording-Example2>
 

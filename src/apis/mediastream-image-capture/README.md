@@ -17,7 +17,9 @@ The ImageCapture interface of the MediaStream Image Capture API provides methods
 ### Demo #1
 > Simple image capture
 
-<API-MediaStreamImageCapture-Example1></API-MediaStreamImageCapture-Example1>
+<ClientOnly>
+  <API-MediaStreamImageCapture-Example1/>
+</ClientOnly>
 
 
 ::: details Code
@@ -46,7 +48,9 @@ navigator.mediaDevices.getUserMedia({ video: true })
 ### Demo #2
 > Image capture with live preview
 
-<API-MediaStreamImageCapture-Example2></API-MediaStreamImageCapture-Example2>
+<ClientOnly>
+  <API-MediaStreamImageCapture-Example2/>
+</ClientOnly>
 
 ::: details Code
 ```js
