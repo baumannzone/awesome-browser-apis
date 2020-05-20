@@ -18,3 +18,54 @@ The MediaStream Recording API makes it possible to capture the data (audio & vid
 > Audio record
 
 <API-MediaStreamRecording-Example1></API-MediaStreamRecording-Example1>
+
+::: details Code
+```js
+navigator.mediaDevices.getUserMedia({ audio: true })
+  .then((stream) => {
+    this.mediaRecorder = new MediaRecorder(stream)
+
+    this.mediaRecorder.ondataavailable = (e) => {
+      this.chunks.push(e.data)
+    }
+
+    this.mediaRecorder.onstop = ({currentTarget}) => {
+      const blob = new Blob(this.chunks, { 'type': currentTarget.mimeType })
+      this.chunks = []
+      this.audioSrc = window.URL.createObjectURL(blob)
+    }
+  })
+  .catch((err) => {
+    // Handle error
+  })
+```
+:::
+
+
+
+### Demo #2
+> Video record
+
+<API-MediaStreamRecording-Example2></API-MediaStreamRecording-Example2>
+
+:::details Code
+```js
+navigator.mediaDevices.getUserMedia({ audio: true, video: true })
+  .then((stream) => {
+    this.mediaRecorder = new MediaRecorder(stream)
+
+    this.mediaRecorder.ondataavailable = (e) => {
+      this.chunks.push(e.data)
+    }
+
+    this.mediaRecorder.onstop = ({currentTarget}) => {
+      const blob = new Blob(this.chunks, { 'type': currentTarget.mimeType })
+      this.chunks = []
+      this.videoSrc = window.URL.createObjectURL(blob)
+    }
+  })
+  .catch((err) => {
+    // Handle error
+  })
+```
+:::
