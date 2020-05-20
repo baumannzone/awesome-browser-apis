@@ -10,7 +10,7 @@
 import BaseExample from "../../BaseExample"
 
 export default {
-  name: 'AudioExample1',
+  name: 'ShareExample1',
   components: {
     BaseExample
   },

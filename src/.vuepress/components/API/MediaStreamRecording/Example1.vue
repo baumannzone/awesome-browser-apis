@@ -28,7 +28,7 @@ export default {
     }
   },
   created() {
-    navigator.mediaDevices.getUserMedia({ audio: true })
+    window.navigator.mediaDevices.getUserMedia({ audio: true })
       .then((stream) => {
         this.mediaRecorder = new MediaRecorder(stream)
 

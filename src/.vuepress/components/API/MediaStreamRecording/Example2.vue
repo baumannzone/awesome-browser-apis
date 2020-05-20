@@ -27,8 +27,8 @@ export default {
       recording: false
     }
   },
-  created() {
-    navigator.mediaDevices.getUserMedia({ audio: true, video: true })
+  mounted() {
+    window.navigator.mediaDevices.getUserMedia({ audio: true, video: true })
       .then((stream) => {
         this.mediaRecorder = new MediaRecorder(stream)
 
