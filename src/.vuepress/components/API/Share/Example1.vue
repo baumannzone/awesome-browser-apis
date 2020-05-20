@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     demo () {
-      this.message = ''
+      this.text = ''
       if (navigator.share) {
         const data = {
           title: 'Awesome Browser API\'s by @Baumannzone',
@@ -31,15 +31,15 @@ export default {
 
         navigator.share(data)
           .then(() => {
-            this.message = 'Successful share'
+            this.text = 'Successful share'
             console.log('Share 👌')
           })
           .catch((error) => {
-            this.message = error
+            this.text = error
             console.log('Error sharing:', error)
           })
       } else {
-        console.log('Navigator.share not supported')
+        this.text = 'Navigator.share not supported'
       }
     }
   }
