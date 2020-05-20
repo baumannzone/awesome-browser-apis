@@ -6,7 +6,10 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b338b324-bd00-478b-bfd7-e88306a7ad07/deploy-status)](https://app.netlify.com/sites/awesome-browser-apis/deploys)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+[![GitHub last commit](https://img.shields.io/github/last-commit/baumannzone/awesome-browser-apis?style=flat-square)](https://github.com/baumannzone/browser-apis/commits/master)
 [![License](https://img.shields.io/github/license/baumannzone/awesome-browser-apis?color=blue)](./LICENSE)
+[![Code of conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square)](https://github.com/baumannzone/awesome-browser-apis/blob/master/CODE_OF_CONDUCT.md)
+
 
 ## Requirements
 - `node.js` / `npm`
