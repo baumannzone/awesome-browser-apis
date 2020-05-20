@@ -6,6 +6,20 @@
   "commit": false,
   "contributors": [
     {
+      "login": "baumannzone",
+      "name": "Jorge Baumann",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5422102?v=4",
+      "profile": "https://twitter.com/baumannzone",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "design",
+        "infra",
+        "maintenance"
+      ]
+    },
+    {
       "login": "valenber",
       "name": "Valentin Berlin",
       "avatar_url": "https://avatars0.githubusercontent.com/u/7880641?v=4",
