@@ -14,9 +14,9 @@
   "author": "Baumannzone",
   "license": "GPL-3.0+",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/baumannzone/awesome-browser-apis/issues"
   },
-  "homepage": "",
+  "homepage": "https://awesome-browser-apis.netlify.app/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.19",
