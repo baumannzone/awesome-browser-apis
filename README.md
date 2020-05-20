@@ -24,9 +24,17 @@
 ### Jorge Baumann 🦄
 Web developer. Passionate about technology in general and web development in particular.  
 Organizer of [Open Source Weekends](https://www.meetup.com/es-ES/Open-Source-Weekends), technology meetup in Madrid.
-He writes technical posts (about CSS, javascript, testing, firebase, etc). In addition, he has a YouTube channel ([rambitoJS](https://www.youtube.com/channel/UCTTj5ztXnGeDRPFVsBp7VMA)) that honors his dog, called Rambo.
+He writes technical posts (about CSS, javascript, testing, firebase, etc). In addition, he has a YouTube channel ([rambitoJS](https://www.youtube.com/channel/UCTTj5ztXnGeDRPFVsBp7VMA)) that honors his dog, called **Rambo**.
 
-[![RambitoJS](./rambito.jpg)](https://www.youtube.com/channel/UCTTj5ztXnGeDRPFVsBp7VMA)
+[![RambitoJS](./assets/rambito.jpg)](https://www.youtube.com/channel/UCTTj5ztXnGeDRPFVsBp7VMA)
+- Social
+  - Twitter: https://twitter.com/baumannzone
+  - Instagram: https://instagram.com/baumannzone
+
+
+- Blogs
+  - Dev: https://dev.to/baumannzone
+  - Medium: [https://medium.com/@baumannsito](https://medium.com/@baumannsito/testing-con-javascript-tutorial-bb85745f2b6e)
 
 
 ## License
