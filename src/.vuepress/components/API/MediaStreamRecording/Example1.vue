@@ -42,6 +42,7 @@ export default {
           const blob = new Blob(this.chunks, { 'type': currentTarget.mimeType })
           this.chunks = []
           this.audioSrc = window.URL.createObjectURL(blob)
+          window.URL.revokeObjectURL(blob)
         }
       })
       .catch((err) => {
