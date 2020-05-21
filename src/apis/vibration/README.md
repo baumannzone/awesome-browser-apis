@@ -15,7 +15,7 @@ The Vibration API offers Web apps the ability to access this hardware if it exis
 ## Examples
 
 ### Demo #1
-> Speech recognition example
+> Vibration basics 
 
 <ClientOnly>
   <API-Vibration-Example1/>

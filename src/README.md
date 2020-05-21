@@ -23,5 +23,7 @@ The goal with this talk is for you to say "_😱 omg, I didn't know I could do t
 
 ::: details Reaction
 ![reaction](/img/reaction.gif)
+
+> Copy/paste
 # 😱👏 😱👏 😱👏 😱👏
 :::
