@@ -16,7 +16,7 @@ Speech Synthesis or text to voice allow us convert text to voice and playing it 
 ## Examples
 
 ### Demo #1
-> Report when the target element is fully visible inside the box
+> Basic text to voice
 
 <ClientOnly>
   <API-Speech-Example1/>
@@ -35,5 +35,62 @@ const text = 'Estoy viendo a Jorge Baumann (@baumannzone) en directo.'
 const synth = window.speechSynthesis
 const utterThis = new SpeechSynthesisUtterance(text)
 synth.speak(utterThis)
+```
+:::
+
+
+### Demo #2
+> Text to voice with options
+
+<ClientOnly>
+  <API-Speech-Example2/>
+</ClientOnly>
+
+
+::: details Code
+```js
+const text = this.form.input
+const synth = window.speechSynthesis
+const utterThis = new SpeechSynthesisUtterance(text)
+// Options
+utterThis.pitch = this.form.pitch
+utterThis.rate = this.form.rate
+// Speak
+synth.speak(utterThis)
+```
+:::
+
+
+### Demo #3
+> Text to voice with options and voices
+
+<ClientOnly>
+  <API-Speech-Example3/>
+</ClientOnly>
+
+
+::: details Code
+```js
+// Check support for speech API
+if (typeof speechSynthesis !== 'undefined' && speechSynthesis.onvoiceschanged !== undefined) {
+  // Populate voices
+  speechSynthesis.onvoiceschanged = this.populateVoiceList
+} else {
+  console.warn('Nope!')
+}
+```
+
+```js
+// getVoices
+speechSynthesis.onvoiceschanged = () => {
+  const text = 'Hola, soy Jorge Baumann, @baumannzone en Instagram'
+  const synth = speechSynthesis
+  const voices = synth.getVoices()
+  const utterThis = new SpeechSynthesisUtterance(text)
+  utterThis.voice = voices.find(v => v.name === 'Jorge')
+  utterThis.pitch = 1.5
+  utterThis.rate = 2
+  synth.speak(utterThis)
+}
 ```
 :::

@@ -11,3 +11,5 @@ Awesome APIs:
 - [Mediastream Image Capture](/apis/mediastream-image-capture)
 - [Mediastream Recording](/apis/mediastream-recording)
 - [Share](/apis/share)
+- [Speech](/apis/speech)
+- [Speech Recognition](/apis/speech-recognition)
