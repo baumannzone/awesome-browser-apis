@@ -27,3 +27,11 @@ Con la base de código que tenía y con los ejemplos, empiezo a investigar y el 
 Como diría el majo de [Rafa Garcés](https://twitter.com/rafagarces) en su Newsletter de [#MyTwoCents](https://rafagarces.us8.list-manage.com/subscribe?u=cb8dd9dbb231f1c48a7ddb835&id=1a2645687a) (que por cierto, está to' guapa), "**Sharing is caring ✨**".  
 Por lo tanto, si te ha gustado, te animo a que compartas esto en tus redes sociales y con tus contactos de trabajo.
 
+
+---
+
+My name is Jorge Baumann and you can find me on the internet as **@baumannzone**:
+- [https://www.twitter.com/baumannzone/](https://www.twitter.com/baumannzone/)
+- [https://www.github.com/baumannzone/](https://www.github.com/baumannzone/)
+- [https://www.instagram.com/baumannzone/](https://www.instagram.com/baumannzone/)
+
