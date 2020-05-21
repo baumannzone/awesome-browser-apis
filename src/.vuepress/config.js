@@ -20,7 +20,7 @@ module.exports = {
     smoothScroll: true,
     lastUpdated: 'Last Updated',
     repo: 'baumannzone/awesome-browser-apis',
-    repoLabel: 'Contribute!',
+    repoLabel: 'Github',
     docsDir: 'src',
     docsBranch: 'master',
     editLinks: true,
