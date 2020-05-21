@@ -44,8 +44,12 @@ He writes technical posts (about CSS, javascript, testing, firebase, etc). In ad
 
 
 ## License
-This material is available for private, non-commercial use under the GPL version 3. If you would like to use this material to conduct your own workshop, please contact me at [@baumannzone](https://twitter.com/baumannzone)
+This material is available for private, non-commercial use under the GPL version 3. If you would like to use this material to conduct your own workshop,
+please contact me at [@baumannzone](https://twitter.com/baumannzone).
 
+## Contributing
+Read our [contributing](./CONTRIBUTING.md) guidelines.
+ 
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
