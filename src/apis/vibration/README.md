@@ -1,16 +1,15 @@
 ---
 
-title: Web Speech API 🗣
+title: Vibration API ❗️
 sidebar: auto
 
 ---
 
-# Speech Recognition
-> aka Voice to Text API
+# Vibration API ❗️
 
 ::: tip
-Speech recognition is the ability of a machine or program to identify words and phrases in spoken language and convert them to a machine-readable format. Introduced in 2012 by W3C.
-The HTML5 Speech Recognition API allows JavaScript to have access to a browser’s audio stream and to convert it to text.
+Most mobile devices include vibration hardware, which lets software code provide physical feedback to the user by causing the device to shake.
+The Vibration API offers Web apps the ability to access this hardware if it exists, and does nothing if the device doesn't support it.
 :::
 
 ## Examples
@@ -19,7 +18,7 @@ The HTML5 Speech Recognition API allows JavaScript to have access to a browser�
 > Speech recognition example
 
 <ClientOnly>
-  <API-SpeechRecognition-Example1/>
+  <API-Vibration-Example1/>
 </ClientOnly>
 
 ::: details Code

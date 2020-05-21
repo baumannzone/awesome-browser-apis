@@ -20,11 +20,9 @@ module.exports = {
     smoothScroll: true,
     lastUpdated: 'Last Updated',
     repo: 'baumannzone/awesome-browser-apis',
-    repoLabel: 'Github',
     docsDir: 'src',
     docsBranch: 'master',
     editLinks: true,
-    editLinkText: 'Help us improve this page!'
   },
   plugins: [
     '@vuepress/back-to-top',

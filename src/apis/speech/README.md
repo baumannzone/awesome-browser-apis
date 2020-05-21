@@ -1,11 +1,11 @@
 ---
 
-title: Speech API 🗣
+title: Web Speech API 🗣
 sidebar: auto
 
 ---
 
-# Web Speech API
+# Speech Synthesis 🗣
 > aka Text to Voice API
 
 ::: tip

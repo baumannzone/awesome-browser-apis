@@ -35,7 +35,7 @@
     data() {
       return {
         form: {
-          input: 'Creo que ya lo sabes, pero mi perro se llama Rambo (tambien conocido como RambitoJS)',
+          input: 'Creo que ya lo sabes, pero mi perro se llama Rambo (a.k.a. #RambitoJS)',
           pitch: 1,
           rate: 1
         }

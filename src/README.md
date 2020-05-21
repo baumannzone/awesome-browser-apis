@@ -8,7 +8,7 @@ sidebar: false
 
 > `ABA` for friends
 
-## 😱 I didn't know I could do this with the browser
+## 😱 I DIDN'T KNOW I COULD DO THIS WITH THE BROWSER
 
 Gone are those times when web browsers were used to render text and little else...
 These are modern times! Even for browsers, which are currently full of interesting _features_ for developers, many of them unknown.
@@ -18,12 +18,10 @@ We will see some APIs (voice, multimedia recording, bluetooth, vibration, etc.) 
 
 Surely you don't know them all!
 
-## 🚀 Mision
+## 🚀 MISION
 The goal with this talk is for you to say "_😱 omg, I didn't know I could do this with the browser_" every time I present a new _(and awesome)_ browser feature.
 
 ::: details Reaction
-
-
 ![reaction](/img/reaction.gif)
 # 😱👏 😱👏 😱👏 😱👏
 :::
