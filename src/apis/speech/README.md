@@ -74,9 +74,7 @@ synth.speak(utterThis)
 // Check support for speech API
 if (typeof speechSynthesis !== 'undefined' && speechSynthesis.onvoiceschanged !== undefined) {
   // Populate voices
-  speechSynthesis.onvoiceschanged = this.populateVoiceList
-} else {
-  console.warn('Nope!')
+  speechSynthesis.onvoiceschanged = window.speechSynthesis.getVoices()
 }
 ```
 
@@ -84,9 +82,10 @@ if (typeof speechSynthesis !== 'undefined' && speechSynthesis.onvoiceschanged !=
 // getVoices
 speechSynthesis.onvoiceschanged = () => {
   const text = 'Hola, soy Jorge Baumann, @baumannzone en Instagram'
-  const synth = speechSynthesis
+  const synth = window.speechSynthesis
   const voices = synth.getVoices()
   const utterThis = new SpeechSynthesisUtterance(text)
+  // Options
   utterThis.voice = voices.find(v => v.name === 'Jorge')
   utterThis.pitch = 1.5
   utterThis.rate = 2
