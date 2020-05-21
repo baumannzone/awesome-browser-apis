@@ -1,6 +1,8 @@
 <template>
   <BaseExample>
-    <b-button variant="primary" size="sm" @click="demo">Start</b-button>
+    <b-button variant="primary" size="sm" @click="demo1">Vibrate</b-button>
+    <hr>
+    <b-button variant="outline-primary" size="sm" @click="demo2">Vibrate</b-button>
   </BaseExample>
 </template>
 
@@ -13,15 +15,20 @@
       BaseExample
     },
     methods: {
-      demo (ev) {
-        ev.preventDefault()
-        const text = this.form.input
-        const synth = window.speechSynthesis
-        const utterThis = new SpeechSynthesisUtterance(text)
-        utterThis.pitch = this.form.pitch
-        utterThis.rate = this.form.rate
-        synth.speak(utterThis)
-      }
+      demo1 () {
+        if ('vibrate' in navigator) {
+          navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate
+          navigator.vibrate([200])
+          console.log('Brr')
+        }
+      },
+      demo2 () {
+        if ('vibrate' in navigator) {
+          navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate
+          navigator.vibrate([2000, 200, 2000])
+          console.log('Brr')
+        }
+      },
     }
   }
 </script>

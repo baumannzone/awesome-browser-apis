@@ -13,3 +13,4 @@ Awesome APIs:
 - [Share](/apis/share)
 - [Speech](/apis/speech)
 - [Speech Recognition](/apis/speech-recognition)
+- [Vibration](/apis/vibration)
