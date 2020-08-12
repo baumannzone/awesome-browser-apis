@@ -19,4 +19,5 @@ My name is Jorge Baumann and you can find me on the internet as **@baumannzone**
 - [https://www.twitter.com/baumannzone/](https://www.twitter.com/baumannzone/)
 - [https://www.github.com/baumannzone/](https://www.github.com/baumannzone/)
 - [https://www.instagram.com/baumannzone/](https://www.instagram.com/baumannzone/)
-
+- [https://www.dev.to/baumannzone/](https://www.dev.to/baumannzone/)
+- [https://www.twitch.tv/baumannzone](https://www.twitch.tv/baumannzone)
