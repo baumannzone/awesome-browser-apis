@@ -10,7 +10,7 @@ description: Know the story behind this project
 1️⃣ - 2018. Job offer. Simple Demo  
 2️⃣ - Months later → Blog post  
 3️⃣ - May 2019 → Google IO #19 Extended (Madrid)  
-4️⃣ - Currently → Add new APIs  
+4️⃣ - Currently → Adding new APIs  
 
 
 ---
