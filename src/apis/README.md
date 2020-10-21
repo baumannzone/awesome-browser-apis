@@ -10,6 +10,7 @@ Awesome APIs:
 - [Intersection Observer](/apis/intersection-observer)
 - [Mediastream Image Capture](/apis/mediastream-image-capture)
 - [Mediastream Recording](/apis/mediastream-recording)
+- [Picture In Picture](/apis/picture-in-picture)
 - [Share](/apis/share)
 - [Speech](/apis/speech)
 - [Speech Recognition](/apis/speech-recognition)
