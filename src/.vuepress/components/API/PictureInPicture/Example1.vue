@@ -4,7 +4,7 @@
       <source src="../../../../../assets/default-video.mp4" type="video/mp4">
     </video>
 
-    <button @click="handlePictureInPicture">Activate PIP</button>
+    <b-button variant="outline-primary" size="sm" @click="handlePictureInPicture">Activate PIP</b-button>
   </BaseExample>
 </template>
 
