@@ -5,7 +5,7 @@ sidebar: auto
 
 ---
 
-# Network Information API 🔋
+# Network Information API 📡
 
 ::: tip 📗
 The Network Information API provides information about the system's connection in terms of general connection type (e.g., 'wifi', 'cellular', etc.). This can be used to select high definition content or low definition content based on the user's connection.
