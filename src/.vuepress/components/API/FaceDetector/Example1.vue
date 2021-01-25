@@ -32,20 +32,20 @@
           .then(faces => {
             console.log('<<<faces>>>')
             console.log(faces)
-            // faces.forEach((face) => {
-            //   // Face box
-            //   const {width, height, top, left} = face.boundingBox
-            //   const faceBox = document.createElement('div')
-            //   faceBox.classList.add('face')
-            //   faceBox.style.cssText = `
-            //   width: ${width}px;
-            //   height: ${height}px;
-            //   top: ${top}px;
-            //   left: ${left}px;
-            // `
-            //   this.$refs.wrap.appendChild(faceBox)
-            //   console.log(faceBox)
-            // })
+            faces.forEach((face) => {
+              // Face box
+              const {width, height, top, left} = face.boundingBox
+              const faceBox = document.createElement('div')
+              faceBox.classList.add('face')
+              faceBox.style.cssText = `
+              width: ${width}px;
+              height: ${height}px;
+              top: ${top}px;
+              left: ${left}px;
+            `
+              this.$refs.wrap.appendChild(faceBox)
+              console.log(faceBox)
+            })
           })
           .catch((err) => {
             console.error(err.toString())

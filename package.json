@@ -1,7 +1,7 @@
 {
   "name": "awesome-browser-apis",
   "version": "1.0.0",
-  "description": "🦄 Awesome browser APIs 💃",
+  "description": "🦄 Awesome Browser APIs 💃",
   "scripts": {
     "serve": "vuepress dev src",
     "build": "vuepress build src",

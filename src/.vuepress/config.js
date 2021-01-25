@@ -13,7 +13,7 @@ module.exports = {
     nav: [
       {text: 'Home', link: '/'},
       {text: 'APIs', link: '/apis/'},
-      {text: 'About', link: '/about/'},
+      // {text: 'About', link: '/about/'},
     ],
     nextLinks: true,
     prevLinks: true,
@@ -95,7 +95,7 @@ module.exports = {
   ],
   head: [
     ['link', {rel: 'icon', href: '/img/favicon.png'}],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#8c52ff' }],
     ['meta', {prefix: ogprefix, property: 'og:locale', content: 'en_EN'}],
     ['meta', {prefix: ogprefix, property: 'og:title', content: title}],
     ['meta', {prefix: ogprefix, property: 'twitter:title', content: title}],

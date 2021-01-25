@@ -26,11 +26,21 @@ Required: `chrome://flags/#enable-experimental-web-platform-features`
 
 ---
 
-  <API-FaceDetector-Example1 />
+<API-FaceDetector-Example1 />
 
 
 ::: details Code
 ```js
-codigooo
+const faceDetector = new window.FaceDetector({maxDetectedFaces: 5, fastMode: false})
+
+faceDetector.detect(image)
+  .then(faces => {
+    faces.forEach((face) => {
+      // Do something awesome
+    })
+  })
+  .catch((err) => {
+    console.error(err.toString())
+  })
 ```
 :::
