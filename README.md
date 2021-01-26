@@ -35,6 +35,7 @@ He writes technical posts (about CSS, javascript, testing, firebase, etc). In ad
 
 [![RambitoJS](./assets/rambito.jpg)](https://www.youtube.com/channel/UCTTj5ztXnGeDRPFVsBp7VMA)
 - Social
+  - Twitch: https://twitch.tv/baumannzone
   - Twitter: https://twitter.com/baumannzone
   - Instagram: https://instagram.com/baumannzone
 
