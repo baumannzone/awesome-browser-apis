@@ -22,7 +22,7 @@
     data() {
       return {
         form: {
-          input: ''
+          input: 'Hola, me llamo Jorge Baumann, @baumannzone en twitter'
         }
       }
     },

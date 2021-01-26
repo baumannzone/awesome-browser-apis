@@ -20,28 +20,28 @@ export default {
   components: {
     BaseExample,
   },
-  data: () => ({
-    networkManager: {
-      connectionType: null,
-      connectionMode: null,
-    },
-  }),
+  data() {
+    return {
+      networkManager: {
+        connectionType: null,
+        connectionMode: null,
+      },
+    }
+  },
   mounted() {
     const connection =
-      navigator.connection ||
-      navigator.mozConnection ||
-      navigator.webkitConnection
+        navigator.connection || navigator.mozConnection || navigator.webkitConnection
 
-    console.log(connection)
+    console.log( connection )
 
     this.networkManager.connectionType = connection.effectiveType
     this.networkManager.connectionMode = connection.type
 
-    connection.addEventListener('change', this.updateConnectionStatus)
+    connection.addEventListener( 'change', this.updateConnectionStatus )
   },
   methods: {
-    updateConnectionStatus(event) {
-      console.log(`Connection type changed from ${this.networkManager.connectionType} to ${event.currentTarget.effectiveType}`)
+    updateConnectionStatus( event ) {
+      console.log( `Connection type changed from ${ this.networkManager.connectionType } to ${ event.currentTarget.effectiveType }` )
       this.networkManager.connectionType = event.currentTarget.effectiveType
       this.networkManager.connectionMode = event.currentTarget.type
     },

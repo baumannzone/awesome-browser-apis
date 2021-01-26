@@ -8,7 +8,7 @@ sidebar: auto
 # Network Information API 📡
 
 ::: tip 📗
-The Network Information API provides information about the system's connection in terms of general connection type (e.g., 'wifi', 'cellular', etc.). This can be used to select high definition content or low definition content based on the user's connection.
+The Network Information API provides information about the system's connection in terms of general connection type. This can be used to select high definition content or low definition content based on the user's connection.
 :::
 
 ::: danger 🛑
@@ -35,3 +35,6 @@ function updateConnectionStatus() {
 connection.addEventListener('change', updateConnectionStatus)
 ```
 :::
+
+
+> [https://wicg.github.io/netinfo/](https://wicg.github.io/netinfo/)

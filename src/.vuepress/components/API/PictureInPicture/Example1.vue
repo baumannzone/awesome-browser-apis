@@ -1,10 +1,10 @@
 <template>
   <BaseExample>
     <video ref="video" width="100%" controls>
-      <source src="../../../../../assets/default-video.mp4" type="video/mp4">
+      <source src="../../../../../assets/rambito.mp4" type="video/mp4">
     </video>
 
-    <b-button variant="outline-primary" size="sm" @click="handlePictureInPicture">Activate PIP</b-button>
+    <b-button variant="primary" size="sm" @click="handlePictureInPicture">Activate PIP</b-button>
   </BaseExample>
 </template>
 
