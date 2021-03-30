@@ -42,7 +42,7 @@ He writes technical posts (about CSS, javascript, testing, firebase, etc). In ad
 
 - Blogs
   - Dev: https://dev.to/baumannzone
-  - Medium: [https://medium.com/@baumannsito](https://medium.com/@baumannsito/testing-con-javascript-tutorial-bb85745f2b6e)
+  - Medium: https://baumannzone.medium.com
 
 
 ## License
